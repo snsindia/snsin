@@ -1,0 +1,8 @@
+13/11/2013
+4.30 PM
+
+1. Contact Form Tested Working
+2. Chat Live Tested Working
+3. Google Maps Resized
+4. Contact Phone appears in all pages
+5. Modal Page shows updated timing
