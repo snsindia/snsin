@@ -136,33 +136,8 @@
 
             <div class="col-lg-8 mt-5 mt-lg-0">
 
-                <form action="https://www.ipower.com/scripts/formsender.html" method="post" role="form" class="php-email-form">
-                  <div class="form-row">
-                    <div class="col-md-6 form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                      <div class="validate"></div>
-                    </div>
-                    <div class="col-md-6 form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                      <div class="validate"></div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Telephone" data-rule="minlen:4" data-msg="Please enter at least 10 chars of subject" />
-                    <div class="validate"></div>
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validate"></div>
-                  </div>
-                  <div class="mb-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <input type="submit" id="Form Submit" name="Form Submit" value="Submit Form"/>
-                  <input id="form_id" type="hidden" name="form_id" value="208386"/>
-                </form>
+               
+              <form action="https://www.ipower.com/scripts/formsender.html" enctype="application/x-www-form-urlencoded" method="post"><table><tbody style="font-size: 12px;"><tr><td>Name<br/><input type="text" id="Name" name="Name" value="Name" size="30" maxlength="1024"/></td></tr><tr><td>Email <br/><input type="text" id="Email " name="Email " value="Email" size="30" maxlength="1024"/></td></tr><tr><td>Telephone<br/><input type="text" id="Telephone" name="Telephone" value="Telephone" size="30" maxlength="1024"/></td></tr><tr><td>Query<br/><textarea name="Query" rows="6" cols="30" maxlength="1024">Query</textarea></td></tr><tr><td><input type="submit" id="Form Submit" name="Form Submit" value="Submit Form"/></td></tr></tbody></table><input id="form_id" type="hidden" name="form_id" value="208386"/></form>
     
               </div>
     
